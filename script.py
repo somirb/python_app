@@ -4,3 +4,5 @@ def greater_than(number):
     else:
         return("nope")
 print(greater_than(12))
+
+lst = [1,2,3,4]
