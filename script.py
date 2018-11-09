@@ -1,6 +1,6 @@
 def greater_than(number):
     if number > 10:
-        print("Fasho")
+        return("Fasho")
     else:
-        print("nope")
-(greater_than(12))
+        return("nope")
+print(greater_than(12))
