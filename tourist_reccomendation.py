@@ -64,7 +64,7 @@ def get_attractions_for_traveler(traveler):
     if traveler_attractions[-1] == traveler_attractions[i]:
       interests_string += "the " + traveler_attractions[i] + "."
     else:
-      interests_string += "the " + traveler_Attractions[i] + ", "  
+      interests_string += "the " + traveler_attractions[i] + ", "  
   return interests_string
 
 smills_france = get_attractions_for_traveler(['Dereck Smill', 'Paris, France', ['monument']])
