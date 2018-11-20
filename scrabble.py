@@ -29,7 +29,7 @@ def update_point_totals():
     return player_to_points
 
 update_point_totals()
-print(player_to_points)
+#print(player_to_points)
 
 # a function that would take in a player and a word, and add that word to the list of words they've played
 def play_word(player, word):
