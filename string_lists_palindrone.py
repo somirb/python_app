@@ -1,7 +1,6 @@
 #using string reversal
 lst1 = input(str("Enter a string: "))
 lst2 = lst1[::-1]
-#print(lst2)
 if lst1 == lst2:
     print("This is a palindrone.")
 else:
